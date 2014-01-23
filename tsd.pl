@@ -240,6 +240,7 @@ sub initLocalConfig{
         &getAffirmativeResponse();
     }
 
+    mkpath(realpath($dir));
     local $default_local_conf = "defs_path=$dir";
     open(L_CONF, '>TSDFile');
     print L_CONF $default_local_conf;
