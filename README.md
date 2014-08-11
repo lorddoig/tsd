@@ -92,22 +92,6 @@ Is by hand at the moment.  Just delete the files from the local project.
 
 Every so often (when `int(rand(10)) == 5`, to be precise) the `search` and `install` commands will check if any of the definitions repos have upstream changes, and will helpfully whine at you if so.  For now you need to into said directory and manipulate the git repo by hand.
 
-## Help
-
-### Why Perl?!
-
-* Because writing CLI utilities in JavaScript isn't nice.
-* Because writing this in Ruby would have caused users to deal with its dependency hell.
-* Because writing this in Python would have required learning Python.
-* Because writing this in Bash was tried, and it was horrible.
-* Because writing this Java/C/C++/Rust/D/Erlang/Scheme/APL/Lua/Forth would have made my head explode.
-
-### This code is AWFUL
-
-Probably.  I wrote this in a day having never written a line of Perl before in my life.
-
-It works\* though.
-
 ---
 
 * For me, anyway.
@@ -124,6 +108,4 @@ Please god yes.
 
 ## License
 
-* Modifications made for redistribution must be made whilst listening to a single Enya song (of your choosing) on repeat.
-
-Otherwise, do what you want.
+MIT.
